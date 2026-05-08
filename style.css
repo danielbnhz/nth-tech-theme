@@ -26,11 +26,14 @@ body {
     letter-spacing: 0.15em;
 
     color: white;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.7);
     display: inline-block;
     position: relative;
     margin-left: 0;
-    padding: 0.2em 0.5em 0.2em 0; 
+    padding: 0.2em 0.1em 0.2em 0.2em; 
+    border-radius: 15%;
+    border-top: 1px solid white;
+    border-right: 1px solid white;    box-shadow: 4em;
 }
 
 .site-title::after {
@@ -41,3 +44,4 @@ body {
     right: 0;    
     height: 1px;
     background-color: white;
+}
