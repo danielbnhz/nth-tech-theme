@@ -26,7 +26,7 @@ body {
     letter-spacing: 0.15em;
 
     color: white;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(7, 38, 122, 0.822);
     display: inline-block;
     position: relative;
     margin-left: 0;
@@ -44,4 +44,11 @@ body {
     right: 0;    
     height: 1px;
     background-color: white;
+}
+
+.session-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
